@@ -5,13 +5,16 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
-    <ImageView
+    <com.google.android.material.imageview.ShapeableImageView
+        android:scaleType="centerCrop"
         android:id="@+id/ivMovie"
+       app:shapeAppearance="@style/roundImage"
         android:layout_width="130dp"
         android:layout_height="192dp"
         android:layout_marginTop="16dp"
         app:layout_constraintBottom_toTopOf="@+id/tvTitle"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
